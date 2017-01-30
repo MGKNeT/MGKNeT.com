@@ -118,13 +118,13 @@
                                                 <p class="lt-card-subtitle">Founder &amp; CEO</p>
                                                 <p class="lt-card-social-buttons">
                                                     <a href="https://www.facebook.com/mrgkanev.eu"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
-                                                    <a href="#"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
+                                                    <a href="https://www.facebook.com/mrgkanev"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
                                                     <a href="#"><i class="lt-card-social-button red-text fa fa-google-plus-square"></i></a>
                                                 </p>
                                             </div>
                                             <div class="card-reveal">
                                                 <span class="lt-card-title card-title grey-text text-darken-4">Gabriel Kanev<i class="material-icons right">close</i></span>
-                                                <p>Here is some more info about this person that is only revealed once clicked on.</p>
+                                                <p>Just an almost 20 (still counting!) year old student, web developer, and driver without a license(you can't catch me coppers) from Bulgaria.</p>
                                             </div>
                                         </div>
                                     </div>

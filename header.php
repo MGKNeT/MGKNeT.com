@@ -4,13 +4,13 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Just a diffirent way of thinking and making products for the web.">
+      <meta name="description" content="A group that just wants to change the WWW">
       <meta name="keywords" content="web design, web devolepment, mobile applications, hosting projects">
       <meta name="author" content="MGKNeT">
 	  <meta name="theme-color" content="#ff5722">
-      <title>MGKNeT</title>
-	  <meta property="og:title" content="MGKNeT" />
-	  <meta property="og:description" content="Just a diffirent way of thinking and making products for the web." />
+      <title>MGKNeT - A group that just wants to change the WWW</title>
+	  <meta property="og:title" content="MGKNeT - A group that just wants to change the WWW" />
+	  <meta property="og:description" content="A group that just wants to change the WWW" />
 <!--  <meta property="og:image" content="images/icon.png" /> -->
       <link rel="canonical" href="">
       <link rel="icon" type="image/png" href="images/icon.png">
