@@ -56,8 +56,8 @@
                                     <li class="active" style="opacity: 1;">
                                         <img src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image" style="background-image: url(&quot;images/slideshow/img-02.jpg&quot;);">
                                         <div class="caption center-align" style="opacity: 1; transform: translateY(0px) translateX(0px);">
-                                            <h2 class="lt-slider-title">Text 1</h2>
-                                            <h5 class="lt-slider-subtitle">Help :)</h5>
+                                            <h2 class="lt-slider-title">Need help?</h2>
+                                            <h5 class="lt-slider-subtitle">We can help your website/project just send us an e-mail.</h5>
                                         </div>
                                     </li>
                                     <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
@@ -77,14 +77,14 @@
         <section id="lt-feature" class="lt-section section">
             <div class="lt-container container">
                 <div class="lt-content lt-feature-content">
-                    <div class="center">
+<!--                    <div class="center">
                         <div class="lt-row row">
                             <div class="lt-col col s12">
-                                <h2 class="lt-title">Octaskin Features</h2>
-                                <p class="flow-text">Octaskin comes with the sample pages to help you get started faster. You can change the text and images and you're good to go.</p>
+                                <h2 class="lt-title">Title</h2>
+                                <p class="flow-text">Text</p>
                             </div>
                         </div>
-                        <div class="lt-vertical-spacer"></div>
+                        <div class="lt-vertical-spacer"></div> -->
                         <div class="lt-row row">
                             <div class="lt-col col m4 s12">
                                 <i class="large pe-7s-edit primary-color-text"></i>
