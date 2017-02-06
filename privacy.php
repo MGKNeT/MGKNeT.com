@@ -36,7 +36,7 @@
                         <div class="lt-row row">
                             <div class="lt-col col s12">
                                 <div class="lt-parallax-header parallax-container" style="height: 400px;">
-                                    <div class="lt-parallax parallax"><img src="images/pages/about/header/img-01.jpg" alt="image" style="display: block; transform: translate3d(-50%, 283px, 0px);">
+                                    <div class="lt-parallax parallax"><img src="https://mgknet.com/images/pages/about/header/img-01.jpg" alt="image" style="display: block; transform: translate3d(-50%, 283px, 0px);">
                                     </div>
                                     <div class="lt-parallax-content">
                                         <div class="valign-wrapper" style="height: 400px;">

@@ -42,6 +42,9 @@
                 <div class="lt-row row">
                     <div class="lt-col col s12">
                         <div>
+                            <a href="/privacy">Privacy Policy</a> |  <a href="/tos">Terms Of Service</a>.
+                        </div>
+                        <div>
                             Made with <a href="#" target="_blank"><i class="fa fa-heart" alt="love"></i></a> by <a href="#" target="_blank">MGKNeT</a>.
                         </div>
                         <div>
@@ -74,6 +77,7 @@
     </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.0/wow.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>

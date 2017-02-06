@@ -143,7 +143,26 @@
                                             </div>
                                             <div class="card-reveal">
                                                 <span class="lt-card-title card-title grey-text text-darken-4">Martin Sholev<i class="material-icons right">close</i></span>
-                                                <p>Here is some more info about this person that is only revealed once clicked on.</p>
+                                                <p>Fan of the music from the 80s and 90s, backend developer with a dream to become a bus driver one day.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+									                                    <div class="col l3 m6 s12">
+                                        <div class="lt-card card z-depth-0">
+                                            <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" src="https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/15698193_1056272474481238_469239035440261640_n.jpg?oh=242f59327f45bafabeca6f37183fafe8&oe=593AB767">
+                                            </div>
+                                            <div class="card-content">
+                                                <span class="lt-card-title card-title activator grey-text text-darken-4">AMBY CHY</span>
+                                                <p class="lt-card-subtitle">Web Designer</p>
+                                                <p class="lt-card-social-buttons">
+                                                    <a href="https://www.facebook.com/jstamby/"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
+                                                    <a href="https://twitter.com/ambychy1"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
+                                                </p>
+                                            </div>
+                                            <div class="card-reveal">
+                                                <span class="lt-card-title card-title grey-text text-darken-4">AMBY CHY<i class="material-icons right">close</i></span>
+                                                <p>Full stack Developer, Graphics Designer, Musician and Teacher. Constantly working on new stuff, constantly learning, constantly improving.</p>
                                             </div>
                                         </div>
                                     </div>
