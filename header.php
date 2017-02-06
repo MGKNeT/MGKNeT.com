@@ -8,6 +8,9 @@
       <meta name="keywords" content="web design, web devolepment, mobile applications, hosting projects">
       <meta name="author" content="MGKNeT">
 	  <meta name="theme-color" content="#ff5722">
+	  <!-- iOS Safari -->
+	  <meta name="apple-mobile-web-app-capable" content="yes">
+	  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
       <title>MGKNeT - A group that just wants to change the WWW</title>
 	  <meta property="og:title" content="MGKNeT - A group that just wants to change the WWW" />
 	  <meta property="og:description" content="A group that just wants to change the WWW" />
