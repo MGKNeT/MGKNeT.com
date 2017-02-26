@@ -1,5 +1,4 @@
 <? include"header.php"; ?>
-
     <body class="lt-theme-octobercms-octaskin lt-layout-octaskin lt-page-home">
         <div id="lt-page-surround">
             <section id="lt-navigation" class="lt-section section lt-no-background">
@@ -82,7 +81,7 @@
 
                                     <h2 class="lt-title center">Changes about terms</h2>
                                     <p class="center">
-                                        If we change our terms of use we will post those changes on this page.Last change 31.01.2017.</p>
+                                        If we change our terms of use we will post those changes on this page. Last change 31.01.2017.</p>
                             </div>
                         </div>
                     </div>

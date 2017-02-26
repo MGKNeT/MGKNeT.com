@@ -61,13 +61,13 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="btn-floating blue darken-4" href="https://www.facebook.com/mgknetwork" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a class="btn-floating blue darken-4" href="<?php echo $facebook_link; ?>" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a class="btn-floating blue" href="https://twitter.com/mgknetwork" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a class="btn-floating blue" href="<?php echo $twitter_link; ?>" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a class="btn-floating black" href="https://github.com/mgknetwork" target="_blank"><i class="fa fa-github"></i></a>
+                                <a class="btn-floating black" href="<?php echo $github_link; ?>" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                     </div>

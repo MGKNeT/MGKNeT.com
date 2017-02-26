@@ -1,5 +1,4 @@
 <? include"header.php"; ?>
-
     <body class="lt-theme-octobercms-octaskin lt-layout-octaskin lt-page-home">
         <div id="lt-page-surround">
             <section id="lt-navigation" class="lt-section section lt-no-background">
@@ -36,7 +35,7 @@
                         <div class="lt-row row">
                             <div class="lt-col col s12">
                                 <div class="lt-parallax-header parallax-container" style="height: 400px;">
-                                    <div class="lt-parallax parallax"><img src="http://demo.laratify.com/octobercms/octaskin/themes/laratify-octobercms-octaskin/assets/img/pages/contact/header/img-01.jpg" alt="image" style="display: block; transform: translate3d(-50%, 283px, 0px);"></div>
+                                    <div class="lt-parallax parallax"><img src="https://mgknet.com/images/pages/contact/header/img-01.jpg" alt="image" style="display: block; transform: translate3d(-50%, 283px, 0px);"></div>
                                     <div class="lt-parallax-content">
                                         <div class="valign-wrapper" style="height: 400px;">
                                             <div class="valign">
@@ -58,7 +57,7 @@
   <div class="lt-col col s12">
     <h2 class="lt-title">What We Do</h2>
     <p class="flow-text">MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.</p>
-    <p>Below is a sample of contact form to demo Materialize CSS form elements.</p>
+    <p>text</p>
   </div>
 </div>
 

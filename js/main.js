@@ -23,9 +23,6 @@ $(document).ready(function() {
   // Tabs
   $('.lt-tabs').tabs();
  
-  // Modal
-  $('.lt-modal-trigger').leanModal();
- 
   // Owl Carousel
   $('.owl-carousel').owlCarousel({
       loop:true,

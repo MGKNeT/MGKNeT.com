@@ -1,5 +1,4 @@
 <? include"header.php"; ?>
-
     <body class="lt-theme-octobercms-octaskin lt-layout-octaskin lt-page-home">
         <div id="lt-page-surround">
             <section id="lt-navigation" class="lt-section section lt-no-background">

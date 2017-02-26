@@ -1,5 +1,4 @@
 <? include "header.php"; ?>
-
 <body class="lt-theme-octobercms-octaskin lt-layout-octaskin lt-page-home">
     <div id="lt-page-surround">
         <section id="lt-navigation" class="lt-section section lt-no-background">
@@ -13,13 +12,20 @@
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">
-                                        <li class="active"><a href="index.php">Home</a>
+                                        <li class="active">
+											<a href="index.php">Home</a>
                                         </li>
-                                        <li class=""><a href="/about">About</a>
+                                        <li class="">
+											<a href="/about">About</a>
                                         </li>
-                                        <li class=""><a href="/portfolio">Portfolio</a>
+										<!--<li class="">
+											<a href="/services">Services</a>
+                                        </li> -->
+                                        <li class="">
+											<a href="/portfolio">Portfolio</a>
                                         </li>
-                                        <li class=""><a href="/contact">Contact</a>
+                                        <li class="">
+											<a href="/contact">Contact</a>
                                         </li>
                                     </ul>
                                     <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
@@ -77,14 +83,13 @@
         <section id="lt-feature" class="lt-section section">
             <div class="lt-container container">
                 <div class="lt-content lt-feature-content">
-                    <!--                    <div class="center">
+                <div class="center">
                         <div class="lt-row row">
                             <div class="lt-col col s12">
-                                <h2 class="lt-title">Title</h2>
-                                <p class="flow-text">Text</p>
+                                <h2 class="lt-title">How diffirent are you from company "A" or "B"?</h2>
                             </div>
                         </div>
-                        <div class="lt-vertical-spacer"></div> -->
+                        <div class="lt-vertical-spacer"></div> 
                     <div class="lt-row row">
                         <div class="lt-col col m4 s12">
                             <i class="large pe-7s-edit primary-color-text"></i>
@@ -145,36 +150,5 @@
             </div>
         </div>
     </section>
-    <section id="lt-extension" class="lt-section section">
-        <div class="lt-container container">
-            <div class="lt-content lt-extension-content">
-                <div class="lt-row row">
-                    <div class="lt-col col s12">
-                        <h2 class="lt-title center">Users Voice</h2>
-                    </div>
-                </div>
-                <div class="lt-row row">
-                    <div class="col s12">
-                        <div class="lt-owl-carousel owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="lt-owl-carousel-item item">
-                                    <div class="lt-testimonial-container">
-                                        <div class="lt-testimonial-content flow-text">
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit fugiat quia doloribus obcaecati libero eum doloremque neque amet fugit magni</span>
-                                        </div>
-                                        <div class="lt-testimonial-author">
-                                            <div class="lt-testimonial-author-img"><img class="circle responsive-img" src="images/voice/img-02.jpg" alt="user">
-                                            </div>
-                                            <div class="lt-testimonial-author-name">Robert Brown</div>
-                                            <div class="lt-testimonial-author-position">Manager of Desynz</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<? include "uservoices.php"; ?>
     <? include "footer.php"; ?>

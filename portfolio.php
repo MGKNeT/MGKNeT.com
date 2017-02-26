@@ -1,5 +1,4 @@
 <? include"header.php"; ?>
-
     <body class="lt-theme-octobercms-octaskin lt-layout-octaskin lt-page-home">
         <div id="lt-page-surround">
             <section id="lt-navigation" class="lt-section section lt-no-background">
@@ -66,22 +65,22 @@
 
                             <div class="lt-row row">
                                 <div class="lt-col col m4 s12">
-                                    <i class="large pe-7s-diamond primary-color-text"></i>
+                                    <i class="large pe-7s-photo-gallery primary-color-text"></i>
                                     <h5>Websites</h5>
                                     <p>We have developed web projects for all kind of people.</p>
                                     <h2 class="lt-title primary-color-text">3</h2>
                                 </div>
                                 <div class="lt-col col m4 s12">
-                                    <i class="large pe-7s-plugin primary-color-text"></i>
+                                    <i class="large pe-7s-phone primary-color-text"></i>
                                     <h5>Mobile Applications</h5>
-                                    <p>From games to </p>
+                                    <p>Mobile Applications from games to media players or root checkers.</p>
                                     <h2 class="lt-title primary-color-text">2</h2>
                                 </div>
                                 <div class="lt-col col m4 s12">
-                                    <i class="large pe-7s-photo primary-color-text"></i>
-                                    <h5>text</h5>
-                                    <p>text</p>
-                                    <h2 class="lt-title primary-color-text">0</h2>
+                                    <i class="large pe-7s-tools primary-color-text"></i>
+                                    <h5>Problems fixed</h5>
+                                    <p>We have fixed more than 50 projects in general.</p>
+                                    <h2 class="lt-title primary-color-text">50+</h2>
                                 </div>
                             </div>
                         </div>
@@ -140,6 +139,20 @@
                                     </div>
                                     <div class="card-action">
                                         <a href="https://github.com/MGKNeT/Mine-CMS" target="_blank">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+							                            <div class="lt-col col m4 s12">
+                                <div class="card grey lighten-3 z-depth-0">
+                                    <div class="card-image">
+                                        <img class="responsive-img" alt="image" src="images/projects/kartene.png">
+                                        <span class="card-title">Kartene-izvozva-remont</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p color-text="black">The websites is made for a building company.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="https://kartene-izvozva-remont.com/" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>

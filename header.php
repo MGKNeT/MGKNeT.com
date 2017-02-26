@@ -1,3 +1,4 @@
+<? include "information.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -11,7 +12,7 @@
 	  <!-- iOS Safari -->
 	  <meta name="apple-mobile-web-app-capable" content="yes">
 	  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-      <title>MGKNeT - A group that just wants to change the WWW</title>
+      <title><?php echo $website_name; ?> - A group that just wants to change the WWW</title>
 	  <meta property="og:title" content="MGKNeT - A group that just wants to change the WWW" />
 	  <meta property="og:description" content="A group that just wants to change the WWW" />
 <!--  <meta property="og:image" content="images/icon.png" /> -->
@@ -31,7 +32,7 @@
 	       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 	
-	       ga('create', 'UA-70474115-1', 'auto');
+	       ga('create', '<?php echo $google_analytics; ?>', 'auto');
 	       ga('send', 'pageview');
 	
 	      </script>
