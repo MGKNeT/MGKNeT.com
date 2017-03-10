@@ -50,21 +50,57 @@
                     </div>
                 </div>
             </section>
-			<section id="lt-mainpage" class="lt-section section">
-  <div class="lt-container container">
-    <div class="lt-content lt-mainpage-content">
-      <div class="lt-row row">
-  <div class="lt-col col s12">
-    <h2 class="lt-title">What We Do</h2>
-    <p class="flow-text">MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.</p>
-    <p>text</p>
-  </div>
-</div>
-
-<div class="lt-vertical-spacer"></div>
-<p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email :</p>
-<p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Phone: +359 89 682 9477</p>
-
- </div>
-</section>
+            <section id="lt-mainpage" class="lt-section section">
+                <div class="lt-container container">
+                    <div class="lt-content lt-mainpage-content">
+                        <div class="lt-row row">
+                            <div class="lt-col col s12">
+                                <h2 class="lt-title">What We Do</h2>
+                                <p class="flow-text">MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.</p>		
+								<div class="lt-vertical-spacer"></div>
+								<p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Phone: +359 89 682 9477</p>
+                                <p>
+                                    <?php
+										$action=$_REQUEST['action'];
+										if ($action=="")    /* display the contact form */
+											{
+									?>
+                                        <form action="" method="POST" enctype="multipart/form-data">
+                                            <input type="hidden" name="action" value="submit"> Your name:
+                                            <p>
+                                            <input name="name" type="text" value="" size="30" /></p>
+                                            <br> Your email:
+                                            <p>
+                                            <input name="email" type="email" value="" size="30" /></p>
+                                            <br> Your message:
+                                            <p>
+                                            <textarea name="message" rows="7" cols="30"></textarea></p>
+                                            <p>
+                                            <div class="g-recaptcha" data-sitekey="6Ld0SBgTAAAAAJAIOf5VViUZPxouZGjdpHoSdJZn"></div></p>
+                                            <input type="submit" value="Send email" />
+                                        </form>
+                                        <?php
+											} 
+										else                /* send the submitted data */
+											{
+											$name=$_REQUEST['name'];
+											$email=$_REQUEST['email'];
+											$message=$_REQUEST['message'];
+											if (($name=="")||($email=="")||($message==""))
+												{
+												echo "All fields are required, please fill the form again.";
+												}
+											else{		
+												$from="From: $name<$email>\r\nReturn-path: $email";
+												$subject="Message sent using your contact form";
+												mail("mrgabrielkanev@gmail.com", $subject, $message, $from);
+												echo "Email sent!";
+												}
+											}  
+										?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
             <? include"footer.php"; ?>
