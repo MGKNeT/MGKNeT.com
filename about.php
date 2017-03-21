@@ -1,5 +1,5 @@
 <? include "header.php"; ?>
-<body class="lt-layout-octaskin lt-page-about" data-gr-c-s-loaded="true">
+<body class="lt-page-about" data-gr-c-s-loaded="true">
     <div id="lt-page-surround">
         <section id="lt-navigation" class="lt-section section lt-no-background">
             <div class="lt-row row">
@@ -8,27 +8,35 @@
                         <nav class="lt-no-background">
                             <div class="nav-wrapper">
                                 <div class="lt-container container">
-                                    <a href="index.php" class="brand-logo white-text"><img src="images/logo-white.png">
+                                    <a href="index.php" class="brand-logo white-text" title="MGKNeT">
+										<img src="images/logo-white.png">
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">
-                                        <li class=""><a href="index.php">Home</a>
+                                        <li class="">
+											<a href="index.php" title="Homepage">Home</a>
                                         </li>
-                                        <li class="active"><a href="/about">About</a>
+                                        <li class="active">
+											<a href="/about" title="About">About</a>
                                         </li>
-                                        <li class=""><a href="/portfolio">Portfolio</a>
+										<!--<li class="">
+											<a href="/services">Services</a>
+                                        </li> -->
+                                        <li class="">
+											<a href="/portfolio" title="Portfolio">Portfolio</a>
                                         </li>
-                                        <li class=""><a href="/contact">Contact</a>
+                                        <li class="">
+											<a href="/contact" title="Contact information">Contact</a>
                                         </li>
                                     </ul>
                                     <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
-                                        <li class=""><a href="index.php">Home</a>
+                                        <li class=""><a href="index.php" title="Homepage">Home</a>
                                         </li>
-                                        <li class="active"><a href="/about">About</a>
+                                        <li class="active"><a href="/about" title="About">About</a>
                                         </li>
-                                        <li class=""><a href="/portfolio">Portfolio</a>
+                                        <li class=""><a href="/portfolio" title="Portfolio">Portfolio</a>
                                         </li>
-                                        <li class=""><a href="/contact">Contact</a>
+                                        <li class=""><a href="/contact" title="Contact information">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -45,7 +53,7 @@
                     <div class="lt-row row">
                         <div class="lt-col col s12">
                             <div class="lt-parallax-header parallax-container" style="height: 400px;">
-                                <div class="lt-parallax parallax"><img src="https://mgknet.com/images/pages/about/header/img-01.jpg" alt="image" style="display: block; transform: translate3d(-50%, 283px, 0px);">
+                                <div class="lt-parallax parallax"><img src="https://mgknet.com/images/pages/about/header/img-01.jpg" alt="Header image" style="display: block; transform: translate3d(-50%, 283px, 0px);">
                                 </div>
                                 <div class="lt-parallax-content">
                                     <div class="valign-wrapper" style="height: 400px;">
@@ -110,15 +118,15 @@
                                     <div class="lt-col col l3 m6 s12">
                                         <div class="lt-card card z-depth-0">
                                             <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/13620273_1074474762635809_168440058747346248_n.jpg?oh=f33e128e75bc64a94caf2a04fa2f78d2&oe=590AC2FA">
+                                                <img class="activator" src="https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/13620273_1074474762635809_168440058747346248_n.jpg?oh=f33e128e75bc64a94caf2a04fa2f78d2&oe=590AC2FA" alt="Gabriel Kanev">
                                             </div>
                                             <div class="card-content">
                                                 <span class="lt-card-title card-title activator grey-text text-darken-4">Gabriel Kanev</span>
                                                 <p class="lt-card-subtitle">Founder &amp; CEO</p>
                                                 <p class="lt-card-social-buttons">
-                                                    <a href="https://www.facebook.com/mrgkanev.eu"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
-                                                    <a href="https://www.facebook.com/mrgkanev"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
-                                                    <a href="#"><i class="lt-card-social-button red-text fa fa-google-plus-square"></i></a>
+                                                    <a href="https://www.facebook.com/mrgkanev.eu" title="MrGKanevs Facebook"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
+                                                    <a href="https://www.facebook.com/mrgkanev" title="MrGKanevs Twitter"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
+                                                    <a href="#" title="MrGKanevs GooglePlus"><i class="lt-card-social-button red-text fa fa-google-plus-square"></i></a>
                                                 </p>
                                             </div>
                                             <div class="card-reveal">
@@ -130,14 +138,14 @@
                                     <div class="col l3 m6 s12">
                                         <div class="lt-card card z-depth-0">
                                             <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.0-9/10488254_1156713871021626_7055266100434608286_n.jpg?oh=c9217e31efae0b3c0528c6c3bae2af32&oe=58DCAA77">
+                                                <img class="activator" src="https://scontent-otp1-1.xx.fbcdn.net/v/t1.0-9/10488254_1156713871021626_7055266100434608286_n.jpg?oh=c9217e31efae0b3c0528c6c3bae2af32&oe=58DCAA77" alt="Martin Sholev">
                                             </div>
                                             <div class="card-content">
                                                 <span class="lt-card-title card-title activator grey-text text-darken-4">Martin Sholev</span>
                                                 <p class="lt-card-subtitle">Web Developer</p>
                                                 <p class="lt-card-social-buttons">
-                                                    <a href="https://www.facebook.com/Krokits"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
-                                                    <a href="https://twitter.com/Krokits"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
+                                                    <a href="https://www.facebook.com/Krokits" title="Krokits Facebook"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
+                                                    <a href="https://twitter.com/Krokits" title="Krokits Twitter"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
                                                 </p>
                                             </div>
                                             <div class="card-reveal">
@@ -149,14 +157,14 @@
 									                                    <div class="col l3 m6 s12">
                                         <div class="lt-card card z-depth-0">
                                             <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/15698193_1056272474481238_469239035440261640_n.jpg?oh=242f59327f45bafabeca6f37183fafe8&oe=593AB767">
+                                                <img class="activator" src="https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/15698193_1056272474481238_469239035440261640_n.jpg?oh=242f59327f45bafabeca6f37183fafe8&oe=593AB767"  alt="Amby Chy">
                                             </div>
                                             <div class="card-content">
                                                 <span class="lt-card-title card-title activator grey-text text-darken-4">Amby Chy</span>
                                                 <p class="lt-card-subtitle">Web Designer</p>
                                                 <p class="lt-card-social-buttons">
-                                                    <a href="https://www.facebook.com/jstamby/"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
-                                                    <a href="https://twitter.com/ambychy1"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
+                                                    <a href="https://www.facebook.com/jstamby/" title="Ambys Facebook"><i class="lt-card-social-button blue-text text-darken-4 fa fa-facebook-square"></i></a>
+                                                    <a href="https://twitter.com/ambychy1" title="Ambys Twitter"><i class="lt-card-social-button blue-text fa fa-twitter-square"></i></a>
                                                 </p>
                                             </div>
                                             <div class="card-reveal">

@@ -6,24 +6,41 @@
                     <div class="lt-content lt-navigation-content">
                         <div class="lt-navbar navbar-fixed">
                             <nav class="lt-no-background">
-                                <div class="nav-wrapper">
-                                    <div class="lt-container container">
-                                        <a href="index.php" class="brand-logo white-text"><img src="images/logo-white.png"></a>
-                                        <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
-                                        <ul class="right hide-on-med-and-down">
-                                            <li class=""><a href="index.php">Home</a></li>
-                                            <li class=""><a href="/about">About</a></li>
-                                            <li class=""><a href="/portfolio">Portfolio</a></li>
-                                            <li class=""><a href="/contact">Contact</a></li>
-                                        </ul>
-                                        <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
-                                            <li class=""><a href="index.php">Home</a></li>
-                                            <li class=""><a href="/about">About</a></li>
-                                            <li class=""><a href="/portfolio">Portfolio</a></li>
-                                            <li class=""><a href="/contact">Contact</a></li>
-                                        </ul>
-                                    </div>
+                            <div class="nav-wrapper">
+                                <div class="lt-container container">
+                                    <a href="index.php" class="brand-logo white-text" title="MGKNeT">
+										<img src="images/logo-white.png">
+                                    </a>
+                                    <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
+                                    <ul class="right hide-on-med-and-down">
+                                        <li class="">
+											<a href="index.php" title="Homepage">Home</a>
+                                        </li>
+                                        <li class="">
+											<a href="/about" title="About">About</a>
+                                        </li>
+										<!--<li class="">
+											<a href="/services">Services</a>
+                                        </li> -->
+                                        <li class="">
+											<a href="/portfolio" title="Portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="">
+											<a href="/contact" title="Contact information">Contact</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
+                                        <li class=""><a href="index.php" title="Homepage">Home</a>
+                                        </li>
+                                        <li class=""><a href="/about" title="About">About</a>
+                                        </li>
+                                        <li class=""><a href="/portfolio" title="Portfolio">Portfolio</a>
+                                        </li>
+                                        <li class=""><a href="/contact" title="Contact information">Contact</a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
                             </nav>
                         </div>
                     </div>
@@ -59,10 +76,6 @@
 									<p class="center">
 										By accessing and placing an order with MGKNeT, you confirm that you are in agreement with and bound by the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the entire website and any email or other type of communication between you and MGKNeT. Under no circumstances shall MGKNeT team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if MGKNeT team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof. MGKNeT will not be responsible for any outcome that may occur during the course of usage of our resources.We reserve the rights to change prices and revise the resources usage policy in any moment.
 									</p>
-                                    <h2 class="lt-title center">Products</h2>
-                                    <p class="center">
-                                        All products and services are delivered by MGKNeT electronically. You can access your download from the your dashboard.
-                                    </p>
                                     <h2 class="lt-title center">Security</h2>
                                     <p class="center">
                                         MGKNeT does not process any order payments through the website. All payments are processed securely through Avangate, a third party online payment provider. Feel free to contact us about our security policies.
@@ -81,7 +94,7 @@
 
                                     <h2 class="lt-title center">Changes about terms</h2>
                                     <p class="center">
-                                        If we change our terms of use we will post those changes on this page. Last change 31.01.2017.</p>
+                                        If we change our terms of use we will post those changes on this page. Last change 22.03.2017.</p>
                             </div>
                         </div>
                     </div>

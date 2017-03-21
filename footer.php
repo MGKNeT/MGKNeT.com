@@ -42,13 +42,13 @@
                 <div class="lt-row row">
                     <div class="lt-col col s12">
                         <div>
-                            <a href="/privacy">Privacy Policy</a> |  <a href="/tos">Terms Of Service</a>.
+                            <a href="/privacy" title="Privacy Policy">Privacy Policy</a> |  <a href="/tos" title="Terms Of Service">Terms Of Service</a>.
                         </div>
                         <div>
                             Made with <a href="#" target="_blank"><i class="fa fa-heart" alt="love"></i></a> by <a href="#" target="_blank">MGKNeT</a>.
                         </div>
                         <div>
-                            Powered by <a href="http://materializecss.com/" target="_blank">Materialize CSS</a>.
+                            Powered by <a href="http://materializecss.com/"title="Materializecss" target="_blank">Materialize CSS</a>.
                         </div>
                     </div>
                 </div>
@@ -61,13 +61,13 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="btn-floating blue darken-4" href="<?php echo $facebook_link; ?>" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a class="btn-floating blue darken-4" href="<?php echo $facebook_link; ?>" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a class="btn-floating blue" href="<?php echo $twitter_link; ?>" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a class="btn-floating blue" href="<?php echo $twitter_link; ?>" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a class="btn-floating black" href="<?php echo $github_link; ?>" target="_blank"><i class="fa fa-github"></i></a>
+                                <a class="btn-floating black" href="<?php echo $github_link; ?>" title="Github" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                     </div>

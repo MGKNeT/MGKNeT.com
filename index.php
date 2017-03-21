@@ -8,34 +8,35 @@
                         <nav class="lt-no-background">
                             <div class="nav-wrapper">
                                 <div class="lt-container container">
-                                    <a href="index.php" class="brand-logo white-text"><img src="images/logo-white.png">
+                                    <a href="index.php" class="brand-logo white-text" title="MGKNeT">
+										<img src="images/logo-white.png">
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">
                                         <li class="active">
-											<a href="index.php">Home</a>
+											<a href="index.php" title="Homepage">Home</a>
                                         </li>
                                         <li class="">
-											<a href="/about">About</a>
+											<a href="/about" title="About">About</a>
                                         </li>
 										<!--<li class="">
 											<a href="/services">Services</a>
                                         </li> -->
                                         <li class="">
-											<a href="/portfolio">Portfolio</a>
+											<a href="/portfolio" title="Portfolio">Portfolio</a>
                                         </li>
                                         <li class="">
-											<a href="/contact">Contact</a>
+											<a href="/contact" title="Contact information">Contact</a>
                                         </li>
                                     </ul>
                                     <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
-                                        <li class="active"><a href="index.php">Home</a>
+                                        <li class="active"><a href="index.php" title="Homepage">Home</a>
                                         </li>
-                                        <li class=""><a href="/about">About</a>
+                                        <li class=""><a href="/about" title="About">About</a>
                                         </li>
-                                        <li class=""><a href="/portfolio">Portfolio</a>
+                                        <li class=""><a href="/portfolio" title="Portfolio">Portfolio</a>
                                         </li>
-                                        <li class=""><a href="/contact">Contact</a>
+                                        <li class=""><a href="/contact" title="Contact information">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -134,15 +135,18 @@
                 <div class="lt-row row">
                     <div class="center">
                         <div class="lt-col col l3 m6 s12">
-                            <a href="https://laravel.com/" target="_blank"><img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/laravel.png" alt="Laravel">
+                            <a href="https://laravel.com/" title="Laravel" target="_blank">
+								<img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/laravel.png" alt="Laravel">
                             </a>
                         </div>
                         <div class="lt-col col l3 m6 s12">
-                            <a href="http://materializecss.com/" target="_blank"><img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/materialize.png" alt="Materialize CSS">
+                            <a href="http://materializecss.com/"title="Materializecss" target="_blank">
+								<img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/materialize.png" alt="Materialize CSS">
                             </a>
                         </div>
                         <div class="lt-col col l3 m6 s12">
-                            <a href="https://github.com/" target="_blank"> <img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/github.png" alt="Github">
+                            <a href="https://github.com/" title="Gituhb" target="_blank"> 
+								<img class="lt-grayscale-opacity-hover-filter responsive-img" src="images/utility/github.png" alt="Github">
                             </a>
                         </div>
                     </div>

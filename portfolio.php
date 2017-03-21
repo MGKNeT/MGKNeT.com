@@ -6,24 +6,41 @@
                     <div class="lt-content lt-navigation-content">
                         <div class="lt-navbar navbar-fixed">
                             <nav class="lt-no-background">
-                                <div class="nav-wrapper">
-                                    <div class="lt-container container">
-                                        <a href="index" class="brand-logo white-text"><img src="images/logo-white.png"></a>
-                                        <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
-                                        <ul class="right hide-on-med-and-down">
-                                            <li class=""><a href="index.php">Home</a></li>
-                                            <li class=""><a href="/about">About</a></li>
-                                            <li class="active"><a href="/portfolio">Portfolio</a></li>
-                                            <li class=""><a href="/contact">Contact</a></li>
-                                        </ul>
-                                        <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
-                                            <li class=""><a href="index.php">Home</a></li>
-                                            <li class=""><a href="/about">About</a></li>
-                                            <li class="active"><a href="/portfolio">Portfolio</a></li>
-                                            <li class=""><a href="/contact">Contact</a></li>
-                                        </ul>
-                                    </div>
+                            <div class="nav-wrapper">
+                                <div class="lt-container container">
+                                    <a href="index.php" class="brand-logo white-text" title="MGKNeT">
+										<img src="images/logo-white.png">
+                                    </a>
+                                    <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
+                                    <ul class="right hide-on-med-and-down">
+                                        <li class="">
+											<a href="index.php" title="Homepage">Home</a>
+                                        </li>
+                                        <li class="">
+											<a href="/about" title="About">About</a>
+                                        </li>
+										<!--<li class="">
+											<a href="/services">Services</a>
+                                        </li> -->
+                                        <li class="active">
+											<a href="/portfolio" title="Portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="">
+											<a href="/contact" title="Contact information">Contact</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
+                                        <li class=""><a href="index.php" title="Homepage">Home</a>
+                                        </li>
+                                        <li class=""><a href="/about" title="About">About</a>
+                                        </li>
+                                        <li class="active"><a href="/portfolio" title="Portfolio">Portfolio</a>
+                                        </li>
+                                        <li class=""><a href="/contact" title="Contact information">Contact</a>
+                                        </li>
+                                    </ul>
                                 </div>
+                            </div>
                             </nav>
                         </div>
                     </div>
@@ -103,70 +120,70 @@
                             <div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
-                                        <img class="responsive-img" alt="image" src="images/projects/flazy.png">
+                                        <img class="responsive-img" alt="image" src="images/projects/flazy.png" alt="Flazy">
                                         <span class="card-title">Flazy CMS</span>
                                     </div>
                                     <div class="card-content">
                                         <p>Flazy CMS is a forum content managment system.It is free as like free beer.</p>
                                     </div>
                                     <div class="card-action">
-                                        <a href="https://flazy.org/" target="_blank">Learn More</a>
+                                        <a href="https://flazy.org/" title="Flazy CMS" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
-                                        <img class="responsive-img" alt="image" src="images/projects/techwhiskers.png">
+                                        <img class="responsive-img" alt="image" src="images/projects/techwhiskers.png" alt="TechWhiskers">
                                         <span class="card-title">TechWhiskers</span>
                                     </div>
                                     <div class="card-content">
                                         <p>Tutorials, videos and podcast all for new users of computers and technology in general. </p>
                                     </div>
                                     <div class="card-action">
-                                        <a href="https://www.facebook.com/techwhiskers/" target="_blank">Learn More</a>
+                                        <a href="https://www.facebook.com/techwhiskers/" title="TechWhiskers website" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
-                                        <img class="responsive-img" alt="image" src="images/projects/minecms.png">
+                                        <img class="responsive-img" alt="image" src="images/projects/minecms.png" alt="Mine CMS">
                                         <span class="card-title">Mine CMS</span>
                                     </div>
                                     <div class="card-content">
                                         <p>Mine CMS is a simple and fast system that can help people who want to make a fast website for they're server.</p>
                                     </div>
                                     <div class="card-action">
-                                        <a href="https://github.com/MGKNeT/Mine-CMS" target="_blank">Learn More</a>
+                                        <a href="https://github.com/MGKNeT/Mine-CMS" title="Mine CMS" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
-                                        <img class="responsive-img" alt="image" src="images/projects/kartene.png">
+                                        <img class="responsive-img" alt="image" src="images/projects/kartene.png" alt="Kartene-izvozva-remont">
                                         <span class="card-title">Kartene-izvozva-remont</span>
                                     </div>
                                     <div class="card-content">
                                         <p color-text="black">The websites is made for a building company.</p>
                                     </div>
                                     <div class="card-action">
-                                        <a href="https://kartene-izvozva-remont.com/" target="_blank">Learn More</a>
+                                        <a href="https://kartene-izvozva-remont.com/" title="Kartene-izvozva-remont" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
 							<div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
-                                        <img class="responsive-img" alt="image" src="images/projects/groweuropesales.png">
+                                        <img class="responsive-img" alt="image" src="images/projects/groweuropesales.png" alt="Grow Europe Sales">
                                         <span class="card-title">Grow Europe Sales</span>
                                     </div>
                                     <div class="card-content">
                                         <p>They have more than 20 years experience launching & developing products and developing sales channels for manufacturers and distributors selling into the UK and Europe IT channel via IT manufacturers, system builders, distributors, resellers, online sellers, retail and education. </p>
                                     </div>
                                     <div class="card-action">
-                                        <a href="http://groweuropesales.co.uk/" target="_blank">Learn More</a>
+                                        <a href="http://groweuropesales.co.uk/" title="Grow Europe Sales" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
