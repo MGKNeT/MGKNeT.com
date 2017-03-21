@@ -1,5 +1,5 @@
 <? include "header.php"; ?>
-<body class="lt-theme-laratify-octobercms-octaskin lt-layout-octaskin lt-page-about" data-gr-c-s-loaded="true">
+<body class="lt-layout-octaskin lt-page-about" data-gr-c-s-loaded="true">
     <div id="lt-page-surround">
         <section id="lt-navigation" class="lt-section section lt-no-background">
             <div class="lt-row row">
