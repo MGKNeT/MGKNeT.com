@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
                             </div>
-							                            <div class="lt-col col m4 s12">
+                            <div class="lt-col col m4 s12">
                                 <div class="card grey lighten-3 z-depth-0">
                                     <div class="card-image">
                                         <img class="responsive-img" alt="image" src="images/projects/kartene.png">
@@ -153,6 +153,20 @@
                                     </div>
                                     <div class="card-action">
                                         <a href="https://kartene-izvozva-remont.com/" target="_blank">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="lt-col col m4 s12">
+                                <div class="card grey lighten-3 z-depth-0">
+                                    <div class="card-image">
+                                        <img class="responsive-img" alt="image" src="images/projects/groweuropesales.png">
+                                        <span class="card-title">Grow Europe Sales</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>They have more than 20 years experience launching & developing products and developing sales channels for manufacturers and distributors selling into the UK and Europe IT channel via IT manufacturers, system builders, distributors, resellers, online sellers, retail and education. </p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="http://groweuropesales.co.uk/" target="_blank">Learn More</a>
                                     </div>
                                 </div>
                             </div>
