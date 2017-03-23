@@ -9,7 +9,7 @@
                             <div class="nav-wrapper">
                                 <div class="lt-container container">
                                     <a href="index.php" class="brand-logo white-text" title="MGKNeT">
-										<img src="images/logo-white.png">
+										<img src="images/logo-white.png" alt="mgknet">
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">
@@ -58,7 +58,7 @@
                                 <div class="lt-parallax-content">
                                     <div class="valign-wrapper" style="height: 400px;">
                                         <div class="valign">
-                                            <h2 class="lt-title">About MGKNeT</h2>
+                                            <h2 class="lt-title">About <?php echo $website_name; ?></h2>
                                             <p class="lt-subtitle flow-text">Who We Are</p>
                                         </div>
                                     </div>

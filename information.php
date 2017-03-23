@@ -1,5 +1,6 @@
 <?php
 $website_name = "MGKNeT";
+$mobile_phone = "+359 89 682 9477";
 
 ## Website Analytics
 $google_analytics = "UA-70474115-1";

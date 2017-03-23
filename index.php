@@ -9,7 +9,7 @@
                             <div class="nav-wrapper">
                                 <div class="lt-container container">
                                     <a href="index.php" class="brand-logo white-text" title="MGKNeT">
-										<img src="images/logo-white.png">
+										<img src="images/logo-white.png" alt"<?php echo $website_name; ?>">
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">

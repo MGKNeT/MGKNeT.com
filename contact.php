@@ -9,7 +9,7 @@
                             <div class="nav-wrapper">
                                 <div class="lt-container container">
                                     <a href="index.php" class="brand-logo white-text" title="MGKNeT">
-										<img src="images/logo-white.png">
+										<img src="images/logo-white.png" alt="mgknet">
                                     </a>
                                     <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
                                     <ul class="right hide-on-med-and-down">
@@ -75,9 +75,9 @@
                         <div class="lt-row row">
                             <div class="lt-col col s12">
                                 <h2 class="lt-title">What We Do</h2>
-                                <p class="flow-text">MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.</p>		
+                                <p class="flow-text"><span itemprop="company"><?php echo $website_name; ?></span> provides general customer service via email and aims to respond to all queries within 24 hours.</p>		
 								<div class="lt-vertical-spacer"></div>
-								<p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Phone: +359 89 682 9477</p>
+								<p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Phone: <span itemprop="tel"><?php echo $mobile_phone; ?></span></p>
                                 <p>
                                     <?php
 										$action=$_REQUEST['action'];

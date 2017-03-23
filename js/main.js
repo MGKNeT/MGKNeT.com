@@ -1,3 +1,4 @@
+// Original js
 $(document).ready(function() {
   // Navigation
   $(window).bind('load scroll', function(){
