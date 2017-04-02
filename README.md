@@ -1,6 +1,14 @@
 ## MGKNeT.com
 So this is going to be the official MGKNeT.com website. It has a lot of work to be done, soon i will add a TODO, a good readme file and at least a good config file.
 
+##To-Do List
+- [x] Contact Form
+- [ ] Automaticly generated sitemap
+- [ ] Database for the team
+- [ ] Database for the portfolio
+- [ ] Making the website multy-lang. Starting with (EN/BG)
+- [ ] Blog 
+
 ## Quick install
  1. Download the latest revision of MGKNeT
  2. Copy (or upload) all the files contained in this archive into the directory where you want to run your forums. (e.g. /home/user/www/mgknet/)

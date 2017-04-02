@@ -67,6 +67,9 @@
                                 <a class="btn-floating blue" href="<?php echo $twitter_link; ?>" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li>
+                                <a class="btn-floating blue" href="<?php echo $instagram_link; ?>" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
                                 <a class="btn-floating black" href="<?php echo $github_link; ?>" title="Github" target="_blank"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>

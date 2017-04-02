@@ -84,17 +84,6 @@
                                     <p class="center">
                                         A cookie is a file containing an identifier (a string of letters and numbers) that is sent by a web server to a web browser and is stored by the browser. The identifier is then sent back to the server each time the browser requests a page from the server. Our website uses cookies. By using our website and agreeing to this policy, you consent to our use of cookies in accordance with the terms of this policy. We use session cookies to personalise the website for each user. We use persistent cookies to keep tracks of referrals coming from our affiliate network. We use Google Analytics to analyse the use of our website. Our analytics service provider generates statistical and other information about website use by means of cookies. Our analytics service provider's privacy policy is available at: http://www.google.com/policies/privacy/. Deleting cookies will have a negative impact on the usability of the site. If you block cookies, you will not be able to use all the features on our website.
                                     </p>
-                                    <h2 class="lt-title center">Refunds</h2>
-                                    <p class="center">
-                                        You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by the seller. In the event that you wish to receive a refund, <?php echo $website_name; ?> will issue you a refund and ask you to specify how the product failed to live up to expectations.
-                                    </p>
-                                    <h2 class="lt-title center">Ownership</h2>
-                                    <p class="center">
-                                        Ownership of the product is governed by the usage license selected by the seller.</p>
-
-                                    <h2 class="lt-title center">Changes about terms</h2>
-                                    <p class="center">
-                                        If we change our terms of use we will post those changes on this page. Last change 22.03.2017.</p>
                             </div>
                         </div>
                     </div>
