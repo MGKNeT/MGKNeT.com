@@ -5,6 +5,8 @@ Language: Spanish
 ------------------
 */
 // Menu
+
+$lang = array();
 $lang['MENU_HOME'] = 'sadasd';
 $lang['MENU_ABOUT_US'] = 'asdsad';
 $lang['MENU_PORTFOLIO'] = 'asddas';

@@ -24,7 +24,7 @@ include_once "common.php";
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+<link href="css/mdb.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,6 +41,3 @@ include_once "common.php";
 <?php			
 	include_once "menu.php";
 ?>
-<a href="index.php?lang=en"><img src="img/flags/en.png" /></a>
-<a href="index.php?lang=de"><img src="img/flags/de.png" /></a>
-<a href="index.php?lang=es"><img src="img/flags/es.png" /></a>
