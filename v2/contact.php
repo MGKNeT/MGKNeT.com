@@ -4,9 +4,9 @@
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Contact</h1></li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php echo $lang['Contact_slider'] ?></h1></li>
                 <li>
-                    <p class="wow fadeInDown">Keep in Touch with Us</p>
+                    <p class="wow fadeInDown"><?php echo $lang['Contact_slider_sub'] ?></p>
                 </li>
             </ul>
         </div>
@@ -17,9 +17,9 @@
 <!--Section: Contact v.2-->
 <section class="section">
     <!--Section heading-->
-    <h1 class="section-heading">What We Do</h1>
+    <h1 class="section-heading"><?php echo $lang['About_main_heading1'] ?></h1>
     <!--Section sescription-->
-    <p class="section-description mb-5">MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.</p>
+    <p class="section-description mb-5"><?php echo $lang['Contact_main_heading1_sub'] ?></p>
     <div class="row">
         <!--First column-->
         <div class="col-md-8">
@@ -66,21 +66,21 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 ?>
 <form class="form-horizontal" role="form" method="post" action="contact.php">
 	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
+		<label for="name" class="col-sm-2 control-label"><?php echo $lang['Contact_form_name'] ?></label>
 		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+			<input type="text" class="form-control" id="name" name="name" placeholder="<?php echo $lang['Contact_form_name_holder'] ?>" value="<?php echo htmlspecialchars($_POST['name']); ?>">
 			<?php echo "<p class='text-danger'>$errName</p>";?>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
+		<label for="email" class="col-sm-2 control-label"><?php echo $lang['Contact_form_email'] ?></label>
 		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+			<input type="email" class="form-control" id="email" name="email" placeholder="<?php echo $lang['Contact_form_email_holder'] ?>" value="<?php echo htmlspecialchars($_POST['email']); ?>">
 			<?php echo "<p class='text-danger'>$errEmail</p>";?>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
+		<label for="message" class="col-sm-2 control-label"><?php echo $lang['Contact_form_message'] ?></label>
 		<div class="col-sm-10">
 			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
 			<?php echo "<p class='text-danger'>$errMessage</p>";?>
@@ -89,13 +89,13 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	<div class="form-group">
 		<label for="human" class="col-sm-2 control-label">5 + 3 = ?</label>
 		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+			<input type="text" class="form-control" id="human" name="human" placeholder="<?php echo $lang['Contact_form_secanswer'] ?>">
 			<?php echo "<p class='text-danger'>$errHuman</p>";?>
 		</div>
 	</div>
 	<div class="form-group">
 		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+			<input id="submit" name="submit" type="submit" value="<?php echo $lang['Send'] ?>" class="btn btn-primary">
 		</div>
 	</div>
 	<div class="form-group">
@@ -110,7 +110,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <div class="col-md-4">
             <ul class="contact-icons">
                 <li><i class="fa fa-map-marker fa-2x"></i>
-                    <p>Sofia, Bulgaria</p>
+                    <p><?php echo $lang['Contact_location'] ?></p>
                 </li>
                 <li><i class="fa fa-phone fa-2x"></i>
                     <p>+359 89 682 9477</p>

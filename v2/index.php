@@ -15,9 +15,9 @@
                 <div class="full-bg-img flex-center white-text">
                     <ul class="animated fadeInUp col-md-12">
                         <li>
-                            <h1 class="h1-responsive flex-item">Need help?</h1>
+                            <h1 class="h1-responsive flex-item"><?php echo $lang['Index_slaider1'] ?></h1>
                             <li>
-                                <p class="flex-item sub">We can help your website/project just send us an e-mail.</p>
+                                <p class="flex-item sub"><?php echo $lang['Index_slaider1_pod'] ?></p>
                             </li>
                     </ul>
                 </div>
@@ -30,10 +30,10 @@
                 <div class="full-bg-img flex-center white-text">
                     <ul class="animated fadeInUp col-md-12">
                         <li>
-                            <h1 class="h1-responsive">Standout from the croud</h1>
+                            <h1 class="h1-responsive"><?php echo $lang['Index_slaider2'] ?></h1>
                         </li>
                         <li>
-                            <p class="flex-item sub">Make your business not only the best in your area...</p>
+                            <p class="flex-item sub"><?php echo $lang['Index_slaider2_pod'] ?></p>
                         </li>
                     </ul>
                 </div>
@@ -60,28 +60,28 @@
 			<!--Section: Features v.1-->
 			<section class="section feature-box">
 				<!--Section heading-->
-				<h1 class="section-heading">How diffirent are you from company "A" or "B"?</h1>
+				<h1 class="section-heading"><?php echo $lang['Index_main_heading1'] ?></h1>
 				<!--First row-->
 				<div class="row features-big">
 					<!--First column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-bars blue-text"></i>
-						<h4 class="feature-title">Customizable</h4>
-						<p class="grey-text">With every website we try to make it as customizable as possible so our clients can change even after the work is done.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading1'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content1'] ?></p>
 					</div>
 					<!--/First column-->
 					<!--Second column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-globe green-text"></i>
-						<h4 class="feature-title">Modern</h4>
-						<p class="grey-text">Developing project with the most safest and newest updates of CMS, frameworks and etc. You can be sure that you will use the best of the best.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading2'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content2'] ?></p>
 					</div>
 					<!--/Second column-->
 					<!--Third column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-clone red-text"></i>
-						<h4 class="feature-title">Responsive</h4>
-						<p class="grey-text">Everybody knows that more than 40% of the internet is browsed from mobile phones (iPhone, Samsung and etc.) and that is why all our websites are responsive.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading3'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content3'] ?></p>
 					</div>
 					<!--/Third column-->
 				</div>
@@ -91,22 +91,22 @@
 					<!--First column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-fire blue-text"></i>
-						<h4 class="feature-title">Stylish</h4>
-						<p class="grey-text">Like a person a project has to have unique style in every way and that is our main priority when we are thinking of a style/design.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading4'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content4'] ?></p>
 					</div>
 					<!--/First column-->
 					<!--Second column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-thumbs-o-up green-text"></i>
-						<h4 class="feature-title">Great Support</h4>
-						<p class="grey-text">Our #1 priority is you, the client. We believe in our product and hold ourselves to the highest standards. We truly care about your application as much as you do. You can count on us.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading5'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content5'] ?></p>
 					</div>
 					<!--/Second column-->
 					<!--Third column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-file-text red-text"></i>
-						<h4 class="feature-title">Documented</h4>
-						<p class="grey-text">Every project that we make is going to be 100% documented so even a person without any knowledge can make big changes.</p>
+						<h4 class="feature-title"><?php echo $lang['Index_main_subheading6'] ?></h4>
+						<p class="grey-text"><?php echo $lang['Index_main_content6'] ?></p>
 					</div>
 					<!--/Third column-->
 				</div>
@@ -116,7 +116,7 @@
 			<!--Section: Testimonials v.2-->
 			<section class="section">
 				<!--Section heading-->
-				<h1 class="section-heading">Users Voice</h1>
+				<h1 class="section-heading"><?php echo $lang['Index_main_heading2'] ?></h1>
 				<!--Section sescription-->
 				<!--Carousel Wrapper-->
 				<div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel" data-interval="false">
@@ -130,10 +130,9 @@
 									<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle img-fluid" alt="First sample avatar image">
 								</div>
 								<!--Content-->
-								<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore cum accusamus
-									eveniet molestias voluptatum inventore laboriosam labore sit, aspernatur praesentium iste impedit quidem dolor veniam vel repudiandae excepturi tenetur illo.</p>
-								<h4>Anna Deynah</h4>
-								<h5>Founder at ET Company</h5>
+								<p><i class="fa fa-quote-left"></i><?php echo $lang['Index_users_quote1'] ?></p>
+								<h4><?php echo $lang['Index_users_name1'] ?></h4>
+								<h5><?php echo $lang['Index_users_profession1'] ?></h5>
 								<!--Review-->
 								<i class="fa fa-star"> </i>
 								<i class="fa fa-star"> </i>
@@ -151,10 +150,9 @@
 									<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="rounded-circle img-fluid" alt="Second sample avatar image">
 								</div>
 								<!--Content-->
-								<p><i class="fa fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-									ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
-								<h4>Maria Kate</h4>
-								<h5>Photographer at Studio LA</h5>
+								<p><i class="fa fa-quote-left"></i> <?php echo $lang['Index_users_quote2'] ?> </p>
+								<h4><?php echo $lang['Index_users_name2'] ?></h4>
+								<h5><?php echo $lang['Index_users_profession2'] ?></h5>
 								<!--Review-->
 								<i class="fa fa-star"> </i>
 								<i class="fa fa-star"> </i>
@@ -172,10 +170,9 @@
 									<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid" alt="Third sample avatar image">
 								</div>
 								<!--Content-->
-								<p><i class="fa fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-									anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium , totam rem aperiam, eaque ipsa quae ab illo.</p>
-								<h4>John Doe</h4>
-								<h5>Front-end Developer in NY</h5>
+								<p><i class="fa fa-quote-left"></i> <?php echo $lang['Index_users_quote3'] ?></p>
+								<h4><?php echo $lang['Index_users_name3'] ?></h4>
+								<h5><?php echo $lang['Index_users_profession3'] ?></h5>
 								<!--Review-->
 								<i class="fa fa-star"> </i>
 								<i class="fa fa-star"> </i>

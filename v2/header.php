@@ -10,14 +10,14 @@ include_once "common.php";
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="A group that just wants to change the WWW">
     <meta name="keywords" content="web design, web devolepment, mobile applications, hosting projects">
-    <meta name="author" content="MGKNeT">
+    <meta name="author" content="<?php echo $website_name; ?>">
 	<meta name="theme-color" content="#ff5722">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title><?php echo $website_name; ?> - A group that just wants to change the WWW</title>
-	<meta property="og:title" content="MGKNeT - A group that just wants to change the WWW" />
-	<meta property="og:description" content="A group that just wants to change the WWW" />
+    <title><?php echo $website_name." - ".$lang['Title_continue']; ?></title>
+	<meta property="og:title" content="<?php echo $website_name." - ".$lang['Title_continue']; ?>" />
+	<meta property="og:description" content="<?php echo $lang['Title_continue']; ?>" />
 <!--  <meta property="og:image" content="images/icon.png" /> -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">

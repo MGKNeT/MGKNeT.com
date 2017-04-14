@@ -6,9 +6,9 @@ include_once "header.php";
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">About MGKNeT</h1></li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php echo $lang['About_slider'] ?></h1></li>
                 <li>
-                    <p class="wow fadeInDown">Who We Are</p>
+                    <p class="wow fadeInDown"><?php echo $lang['About_slider_sub'] ?></p>
                 </li>
             </ul>
         </div>
@@ -22,31 +22,31 @@ include_once "header.php";
 			<section class="section feature-box">
 
 				<!--Section heading-->
-				<h1 class="section-heading">What We Do</h1>
+				<h1 class="section-heading"><?php echo $lang['About_main_heading1'] ?></h1>
 				
 				<!--First row-->
 				<div class="row features-big">
 					<!--First column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-bars blue-text"></i>
-						<h4 class="feature-title">Graphics</h4>
-						<p class="grey-text">Develop a system of design that allows for a unified user experience across all their products on any platform.</p>
+						<h4 class="feature-title"><?php echo $lang['About_main_subheading1'] ?></h4>
+						<p class="grey-text"><?php echo $lang['About_main_content1'] ?></p>
 					</div>
 					<!--/First column-->
 
 					<!--Second column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-globe green-text"></i>
-						<h4 class="feature-title">Coding</h4>
-						<p class="grey-text">When we develop our projects we try stricly to</p>
+						<h4 class="feature-title"><?php echo $lang['About_main_subheading2'] ?></h4>
+						<p class="grey-text"><?php echo $lang['About_main_content2'] ?></p>
 					</div>
 					<!--/Second column-->
 
 					<!--Third column-->
 					<div class="col-md-4 mb-r">
 						<i class="fa fa-clone red-text"></i>
-						<h4 class="feature-title">Templates</h4>
-						<p class="grey-text">We have made more than 5+ templates which can be bouth and used for all kind of websites. Just look in our Envalo account.</p>
+						<h4 class="feature-title"><?php echo $lang['About_main_subheading3'] ?></h4>
+						<p class="grey-text"><?php echo $lang['About_main_content3'] ?></p>
 					</div>
 					<!--/Third column-->
 				</div>
@@ -60,9 +60,9 @@ include_once "header.php";
 <section class="section">
 
     <!--Section heading-->
-    <h1 class="section-heading">Our amazing team</h1>
+    <h1 class="section-heading"><?php echo $lang['About_about_heading2'] ?></h1>
     <!--Section sescription-->
-    <p class="section-description">We're a young team of professional developers, writers, gamers who try to develop the best web applications, videos, podcasts and even themes on the internet. The point of our collaboration is to make the WWW (World Wide Web) a better place.</p>
+    <p class="section-description"><?php echo $lang['About_about_heading2_sub'] ?></p>
     <br>
     <div class="row">
         <!--First column-->
@@ -81,19 +81,19 @@ include_once "header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4>Gabriel Kanev</h4>
-                            <p>Founder & CEO</p>
+                            <h4><?php echo $lang['About_devs_name1'] ?></h4>
+                            <p><?php echo $lang['About_devs_profession1'] ?></p>
                             <!--Triggering button-->
-                            <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                            <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
                         </div>
                     </div>
                     <!--/.Front Side-->
                     <!--Back Side-->
                     <div class="face back">
                         <!--Content-->
-                        <h4>About me</h4>
+                        <h4><?php echo $lang['About_devs_about'] ?></h4>
                         <hr>
-                        <p>Just a 20 (still counting!) year old student, web developer, and driver without a license (you can't catch me coppers)  from Bulgaria.</p>
+                        <p><?php echo $lang['About_devs_bio1'] ?></p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
@@ -103,7 +103,7 @@ include_once "header.php";
                             <li><a href="https://github.com/MrGKanev" class="icons-sm git-ic"><i class="fa fa-github"> </i></a></li>
                         </ul>
                         <!--Triggering button-->
-                        <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                        <a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i><?php echo $lang['About_btn_rotateback'] ?></a>
                     </div>
                     <!--/.Back Side-->
                 </div>
@@ -127,19 +127,19 @@ include_once "header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4>Martin Sholev</h4>
-                            <p>Web Designer</p>
+                            <h4><?php echo $lang['About_devs_name2'] ?></h4>
+                            <p><?php echo $lang['About_devs_profession2'] ?></p>
                             <!--Triggering button-->
-                            <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                            <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
                         </div>
                     </div>
                     <!--/.Front Side-->
                     <!--Back Side-->
                     <div class="face back">
                         <!--Content-->
-                        <h4>About me</h4>
+                        <h4><?php echo $lang['About_devs_about'] ?></h4>
                         <hr>
-                        <p>Fan of the music from the 80s and 90s, backend developer with a dream to become a bus driver one day.</p>
+                        <p><?php echo $lang['About_devs_bio2'] ?></p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
@@ -149,7 +149,7 @@ include_once "header.php";
                             <li><a href="https://www.facebook.com/mrgkanev.eu" class="icons-sm drib-ic"><i class="fa fa-dribbble"> </i></a></li>
                         </ul>
                         <!--Triggering button-->
-                        <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                        <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i><?php echo $lang['About_btn_rotateback'] ?></a>
                     </div>
                     <!--/.Back Side-->
                 </div>
@@ -173,19 +173,19 @@ include_once "header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4>Amby Chy</h4>
-                            <p>Web Designer</p>
+                            <h4><?php echo $lang['About_devs_name3'] ?></h4>
+                            <p><?php echo $lang['About_devs_profession3'] ?></p>
                             <!--Triggering button-->
-                            <a class="rotate-btn" data-card="card-3"><i class="fa fa-repeat"></i> Click here to rotate</a>
+                            <a class="rotate-btn" data-card="card-3"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
                         </div>
                     </div>
                     <!--/.Front Side-->
                     <!--Back Side-->
                     <div class="face back">
                         <!--Content-->
-                        <h4>About me</h4>
+                        <h4><?php echo $lang['About_devs_about'] ?></h4>
                         <hr>
-                        <p>Full stack Developer, Graphics Designer, Musician and Teacher. Constantly working on new stuff, constantly learning, constantly improving.</p>
+                        <p><?php echo $lang['About_devs_bio3'] ?></p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
@@ -195,7 +195,7 @@ include_once "header.php";
                             <li><a href="#" class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                         <!--Triggering button-->
-                        <a class="rotate-btn" data-card="card-3"><i class="fa fa-undo"></i> Click here to rotate back</a>
+                        <a class="rotate-btn" data-card="card-3"><i class="fa fa-undo"></i><?php echo $lang['About_btn_rotateback'] ?></a>
                     </div>
                     <!--/.Back Side-->
                 </div>

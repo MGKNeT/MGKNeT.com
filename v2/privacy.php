@@ -4,7 +4,7 @@
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Privacy policy</h1></li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php echo $lang['Privacy_slider'] ?></h1></li>
             </ul>
         </div>
     </div>

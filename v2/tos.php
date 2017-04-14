@@ -4,7 +4,7 @@
         <div class="full-bg-img flex-center">
             <ul>
                 <li>
-                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Terms of Service</h1></li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php echo $lang['TOS_slider'] ?></h1></li>
             </ul>
         </div>
     </div>
@@ -20,29 +20,32 @@
 					<!--Section heading-->
 					<h1 class="section-heading"></h1>
 					<!--Section sescription-->
-					<p class="section-description"><h2 class="lt-title center">General Terms</h2>
+					<p class="section-description"><h2 class="lt-title center"><?php echo $lang['TOS_main_heading1'] ?></h2>
 									<p class="center">
-										By accessing and placing an order with <?php echo $website_name; ?>, you confirm that you are in agreement with and bound by the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the entire website and any email or other type of communication between you and <?php echo $website_name; ?>. Under no circumstances shall <?php echo $website_name; ?> team be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if <?php echo $website_name; ?> team or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof. <?php echo $website_name; ?> will not be responsible for any outcome that may occur during the course of usage of our resources.We reserve the rights to change prices and revise the resources usage policy in any moment.
+										<?php echo $lang['TOS_main_content1'] ?>
 									</p>
-                                    <h2 class="lt-title center">Security</h2>
+                                    <h2 class="lt-title center"><?php echo $lang['TOS_main_heading2'] ?></h2>
                                     <p class="center">
-                                        <?php echo $website_name; ?> does not process any order payments through the website. 
+                                        <?php echo $lang['TOS_main_content2'] ?> 
                                     </p>
-                                    <h2 class="lt-title center">Cookie Policy</h2>
+                                    <h2 class="lt-title center"><?php echo $lang['TOS_main_heading3'] ?></h2>
                                     <p class="center">
-                                        A cookie is a file containing an identifier (a string of letters and numbers) that is sent by a web server to a web browser and is stored by the browser. The identifier is then sent back to the server each time the browser requests a page from the server. Our website uses cookies. By using our website and agreeing to this policy, you consent to our use of cookies in accordance with the terms of this policy. We use session cookies to personalise the website for each user. We use persistent cookies to keep tracks of referrals coming from our affiliate network. We use Google Analytics to analyse the use of our website. Our analytics service provider generates statistical and other information about website use by means of cookies. Our analytics service provider's privacy policy is available at: http://www.google.com/policies/privacy/. Deleting cookies will have a negative impact on the usability of the site. If you block cookies, you will not be able to use all the features on our website.
+                                        <?php echo $lang['TOS_main_content3'] ?>
                                     </p>
-                                    <h2 class="lt-title center">Refunds</h2>
+                                    <h2 class="lt-title center"><?php echo $lang['TOS_main_heading4'] ?></h2>
                                     <p class="center">
-                                        You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by the seller. In the event that you wish to receive a refund, <?php echo $website_name; ?> will issue you a refund and ask you to specify how the product failed to live up to expectations.
+                                        <?php echo $lang['TOS_main_content4'] ?>
                                     </p>
-                                    <h2 class="lt-title center">Ownership</h2>
+                                    <h2 class="lt-title center"><?php echo $lang['TOS_main_heading5'] ?></h2>
                                     <p class="center">
-                                        Ownership of the product is governed by the usage license selected by the seller.</p>
+                                        <?php echo $lang['TOS_main_content5'] ?>
+									</p>
 
-                                    <h2 class="lt-title center">Changes about terms</h2>
+                                    <h2 class="lt-title center"><?php echo $lang['TOS_main_heading6'] ?></h2>
                                     <p class="center">
-                                        If we change our terms of use we will post those changes on this page. Last change 2.04.2017.</p></p>
+                                        <?php echo $lang['TOS_main_content6'] ?>
+									</p>
+					</p>
 				</section>
 				<!--/Section: Blog v.3-->
                 </div>
