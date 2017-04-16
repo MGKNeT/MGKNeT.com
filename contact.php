@@ -1,125 +1,129 @@
-<? include"header.php"; ?>
-    <body class="lt-layout-octaskin lt-page-home">
-        <div id="lt-page-surround">
-            <section id="lt-navigation" class="lt-section section lt-no-background">
-                <div class="lt-row row">
-                    <div class="lt-content lt-navigation-content">
-                        <div class="lt-navbar navbar-fixed">
-                            <nav class="lt-no-background">
-                            <div class="nav-wrapper">
-                                <div class="lt-container container">
-                                    <a href="index.php" class="brand-logo white-text" title="MGKNeT">
-										<img src="images/logo-white.png" alt="mgknet">
-                                    </a>
-                                    <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
-                                    <ul class="right hide-on-med-and-down">
-                                        <li class="">
-											<a href="index.php" title="Homepage">Home</a>
-                                        </li>
-                                        <li class="">
-											<a href="/about" title="About">About</a>
-                                        </li>
-										<!--<li class="">
-											<a href="/services">Services</a>
-                                        </li> -->
-                                        <li class="">
-											<a href="/portfolio" title="Portfolio">Portfolio</a>
-                                        </li>
-                                        <li class="active">
-											<a href="/contact" title="Contact information">Contact</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="side-nav" id="mobile-menu" style="transform: translateX(-100%);">
-                                        <li class=""><a href="index.php" title="Homepage">Home</a>
-                                        </li>
-                                        <li class=""><a href="/about" title="About">About</a>
-                                        </li>
-                                        <li class=""><a href="/portfolio" title="Portfolio">Portfolio</a>
-                                        </li>
-                                        <li class="active"><a href="/contact" title="Contact information">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="lt-header" class="lt-section lt-section-fullwidth section">
-                <div class="lt-container container">
-                    <div class="lt-content lt-header-content">
-                        <div class="lt-row row">
-                            <div class="lt-col col s12">
-                                <div class="lt-parallax-header parallax-container" style="height: 400px;">
-                                    <div class="lt-parallax parallax">
-										<img src="https://mgknet.com/images/pages/contact/header/img-01.jpg" alt="Header image" style="display: block; transform: translate3d(-50%, 283px, 0px);">
-									</div>
-                                    <div class="lt-parallax-content">
-                                        <div class="valign-wrapper" style="height: 400px;">
-                                            <div class="valign">
-                                                <h2 class="lt-title">Contact</h2>
-                                                <p class="lt-subtitle flow-text">Keep in Touch with Us</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="lt-mainpage" class="lt-section section">
-                <div class="lt-container container">
-                    <div class="lt-content lt-mainpage-content">
-                        <div class="lt-row row">
-                            <div class="lt-col col s12">
-                                <h2 class="lt-title">What We Do</h2>
-                                <p class="flow-text"><span itemprop="company"><?php echo $website_name; ?></span> provides general customer service via email and aims to respond to all queries within 24 hours.</p>		
-								<div class="lt-vertical-spacer"></div>
-								<p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile Phone: <span itemprop="tel"><?php echo $mobile_phone; ?></span></p>
-                                <p>
-                                    <?php
-										$action=$_REQUEST['action'];
-										if ($action=="")    /* display the contact form */
-											{
-									?>
-                                        <form action="" method="POST" enctype="multipart/form-data">
-                                            <input type="hidden" name="action" value="submit"> Your name:
-                                            <p>
-                                            <input name="name" type="text" value="" size="30" /></p>
-                                            <br> Your email:
-                                            <p>
-                                            <input name="email" type="email" value="" size="30" /></p>
-                                            <br> Your message:
-                                            <p>
-                                            <textarea name="message" rows="7" cols="30"></textarea></p>
-                                            <p>
-                                            <div class="g-recaptcha" data-sitekey="6Ld0SBgTAAAAAJAIOf5VViUZPxouZGjdpHoSdJZn"></div></p>
-                                            <input type="submit" value="Send email" />
-                                        </form>
-                                        <?php
-											} 
-										else                /* send the submitted data */
-											{
-											$name=$_REQUEST['name'];
-											$email=$_REQUEST['email'];
-											$message=$_REQUEST['message'];
-											if (($name=="")||($email=="")||($message==""))
-												{
-												echo "All fields are required, please fill the form again.";
-												}
-											else{		
-												$from="From: $name<$email>\r\nReturn-path: $email";
-												$subject="Message sent using your contact form";
-												mail("mrgabrielkanev@gmail.com", $subject, $message, $from);
-												echo "Email sent!";
-												}
-											}  
-										?>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-            <? include"footer.php"; ?>
+<?php include"include/header.php"; ?> 
+    <!--Mask-->
+    <div class="view view-contact hm-black-strong">
+        <div class="full-bg-img flex-center">
+            <ul>
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php echo $lang['Contact_slider'] ?></h1></li>
+                <li>
+                    <p class="wow fadeInDown"><?php echo $lang['Contact_slider_sub'] ?></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/.Mask-->
+    <!-- Main container-->
+    <div class="container">
+<!--Section: Contact v.2-->
+<section class="section">
+    <!--Section heading-->
+    <h1 class="section-heading"><?php echo $lang['About_main_heading1'] ?></h1>
+    <!--Section sescription-->
+    <p class="section-description mb-5"><?php echo $lang['Contact_main_heading1_sub'] ?></p>
+    <div class="row">
+        <!--First column-->
+        <div class="col-md-8">
+		<?php
+	if (isset($_POST["submit"])) {
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$message = $_POST['message'];
+		$human = intval($_POST['human']);
+		$from = 'MGKNeT Contact Form'; 
+		$to = 'bgwolf971@gmail.com'; 
+		$subject = 'The contact form from MGKNeT';
+		
+		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+ 
+		// Check if name has been entered
+		if (!$_POST['name']) {
+			$errName = 'Please enter your name';
+		}
+		
+		// Check if email has been entered and is valid
+		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+			$errEmail = 'Please enter a valid email address';
+		}
+		
+		//Check if message has been entered
+		if (!$_POST['message']) {
+			$errMessage = 'Please enter your message';
+		}
+		//Check if simple anti-bot test is correct
+		if ($human !== 8) {
+			$errHuman = 'Your anti-spam is incorrect';
+		}
+ 
+// If there are no errors, send the email
+if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+	if (mail ($to, $subject, $body, $from)) {
+		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+	} else {
+		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
+	}
+}
+	}
+?>
+<form class="form-horizontal" role="form" method="post" action="contact.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label"><?php echo $lang['Contact_form_name'] ?></label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="<?php echo $lang['Contact_form_name_holder'] ?>" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+			<?php echo "<p class='text-danger'>$errName</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label"><?php echo $lang['Contact_form_email'] ?></label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="<?php echo $lang['Contact_form_email_holder'] ?>" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+			<?php echo "<p class='text-danger'>$errEmail</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label"><?php echo $lang['Contact_form_message'] ?></label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+			<?php echo "<p class='text-danger'>$errMessage</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="human" class="col-sm-2 control-label">5 + 3 = ?</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="human" name="human" placeholder="<?php echo $lang['Contact_form_secanswer'] ?>">
+			<?php echo "<p class='text-danger'>$errHuman</p>";?>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="<?php echo $lang['Send'] ?>" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<?php echo $result; ?>	
+		</div>
+	</div>
+</form> 
+        </div>
+        <!--.First column-->
+        <!--Second column-->
+        <div class="col-md-4">
+            <ul class="contact-icons">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p><?php echo $lang['Contact_location'] ?></p>
+                </li>
+                <li><i class="fa fa-phone fa-2x"></i>
+                    <p>+359 89 682 9477</p>
+                </li>
+                <li><i class="fa fa-envelope fa-2x"></i>
+                    <p>@mgknet.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--.Second column-->
+    </div>
+</section>
+<!--/Section: Contact v.2-->
+    </div>
+    <!--/ Main container-->
+<?php include"include/footer.php"; ?>

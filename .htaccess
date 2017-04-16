@@ -2,9 +2,12 @@ RewriteEngine On
 # Website Page Rules
 RewriteRule ^about$ /about.php [L]
 RewriteRule ^portfolio$ /portfolio.php
+RewriteRule ^services$ /services.php
+RewriteRule ^blog$ /blog.php
 RewriteRule ^contact$ /contact.php
 RewriteRule ^tos$ /tos.php
 RewriteRule ^privacy$ /privacy.php
+
 
 RewriteCond %{HTTP_HOST} ^www\.example\.com$
 RewriteRule ^/?$ "http\:\/\/example\.com\/" [R=301,L]
