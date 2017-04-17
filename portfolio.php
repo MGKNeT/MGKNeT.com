@@ -61,9 +61,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                         <a href="" class="red-text"><h5><i class="fa fa-money"></i><?php echo $lang['Portfolio_category_communicate'] ?></h5></a>
+                         <a href="" class="red-text"><h5><?php echo $lang['Portfolio_category_communicate'] ?></h5></a>
                         <h3>Flazy</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc1'] ?></p>
+                        <p>Flazy CMS is a forum content managment system.It is free as like free beer.</p>
                         <a href="http://flazy.org/" class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>
@@ -78,9 +78,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                        <a href="" class="teal-text"><h5><i class="fa fa-pie-chart"></i><?php echo $lang['Portfolio_category_marketing'] ?></h5></a>
+                        <a href="" class="teal-text"><h5><?php echo $lang['Portfolio_category_marketing'] ?></h5></a>
                         <h3>TechWhiskers</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc2'] ?></p>
+                        <p>Tutorials, videos and podcast all for new users of computers and technology in general.</p>
                         <a href="https://www.facebook.com/techwhiskers/" class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>
@@ -95,9 +95,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                        <a href="" class="cyan-text"><h5><i class="fa fa-desktop"></i><?php echo $lang['Portfolio_category_software'] ?></h5></a>
+                        <a href="" class="cyan-text"><h5><?php echo $lang['Portfolio_category_software'] ?></h5></a>
                         <h3>Mine CMS</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc3'] ?></p>
+                        <p>Mine CMS is a simple and fast system that can help people who want to make a fast website for they're server.</p>
                         <a href="https://github.com/MGKNeT/Mine-CMS"class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>
@@ -112,9 +112,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                        <a href="" class="teal-text"><h5><i class="fa fa-pie-chart"></i><?php echo $lang['Portfolio_category_marketing'] ?></h5></a>
+                        <a href="" class="teal-text"><h5><?php echo $lang['Portfolio_category_marketing'] ?></h5></a>
                         <h3>Kartene-izvozva-remont</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc4'] ?></p>
+                        <p>The websites is made for a building company.</p>
                         <a href="https://kartene-izvozva-remont.com/" class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>
@@ -129,9 +129,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                        <a href="" class="cyan-text"><h5><i class="fa fa-desktop"></i><?php echo $lang['Portfolio_category_software'] ?></h5></a>
+                        <a href="" class="cyan-text"><h5><?php echo $lang['Portfolio_category_software'] ?></h5></a>
                         <h3>Grow Europe Sales</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc5'] ?></p>
+                        <p>They have more than 20 years experience launching & developing products and developing sales channels for manufacturers and distributors selling into the UK and Europe IT channel via IT manufacturers, system builders, distributors, resellers, online sellers, retail and education.</p>
                         <a href="http://groweuropesales.co.uk/"class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>
@@ -146,9 +146,9 @@
                 <!--Content-->
                 <div class="white-text text-center">
                     <div class="card-block">
-                        <a href="" class="red-text"><h5><i class="fa fa-cloud"></i><?php echo $lang['Portfolio_category_communicate'] ?></h5></a>
+                        <a href="" class="red-text"><h5><?php echo $lang['Portfolio_category_communicate'] ?></h5></a>
                         <h3>LyOS</h3>
-                        <p><?php echo $lang['Portfolio_proj_desc6'] ?></p>
+                        <p>Lightweight software for controlling cloud based solutions from an easy to use interface.</p>
                         <a href="#" class="btn btn-lg btn-outline-white"><i class="fa fa-clone left"></i><?php echo $lang['Portfolio_btn_view'] ?></a>
                     </div>
                 </div>

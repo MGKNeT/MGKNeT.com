@@ -36,10 +36,10 @@
                 </ul>
 				<ul class="nav navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/mgknetcom/" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://twitter.com/mgknetwork" class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/mgknetcom" class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li class="nav-item">
                             <a href="https://www.instagram.com/mgknet/" class="nav-link waves-effect waves-light"><i class="fa fa-instagram"></i></a>

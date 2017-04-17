@@ -6,31 +6,24 @@ Language: Bulgarian
 */
 $lang = array();
 $lang['Title_continue']= 'A group that just wants to change the WWW';
-$lang['MENU_HOME'] = 'Начало';
-$lang['MENU_ABOUT_US'] = 'За нас';
+$lang['MENU_HOME'] = 'Home';
+$lang['MENU_ABOUT_US'] = 'About';
 $lang['MENU_PORTFOLIO'] = 'Portfolio';
 $lang['MENU_SERVICES'] = 'Services';
-$lang['MENU_BLOG'] = 'Блог';
-$lang['MENU_CONTACT'] = 'Контакти';
-
+$lang['MENU_BLOG'] = 'Blog';
+$lang['MENU_CONTACT'] = 'Contact';
 /*Slaider information*/
 $lang['Index_slaider1'] = 'Need help?';
 $lang['Index_slaider1_pod'] = 'We can help your website/project just send us an e-mail.';
 $lang['Index_slaider2'] = 'Standout from the croud';
 $lang['Index_slaider2_pod'] = 'Make your business not only the best in your area...';
-
 $lang['About_slider']= 'About MGKNeT';
 $lang['About_slider_sub']= 'Who We Are';
-
 $lang['Contact_slider']= 'Contact';
 $lang['Contact_slider_sub']= 'Keep in Touch with Us';
-
 $lang['TOS_slider']='Terms of Service';
-
 $lang['Privacy_slider']='Privacy policy';
-
 /*Main section*/
-
 $lang['TOS_main_heading1']='General Terms';
 $lang['TOS_main_heading2']='Security';
 $lang['TOS_main_heading3']='Cookie Policy';
@@ -43,8 +36,6 @@ $lang['TOS_main_content3']="A cookie is a file containing an identifier (a strin
 $lang['TOS_main_content4']='You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by the seller. In the event that you wish to receive a refund, '.$website_name.' will issue you a refund and ask you to specify how the product failed to live up to expectations.';
 $lang['TOS_main_content5']='Ownership of the product is governed by the usage license selected by the seller.';
 $lang['TOS_main_content6']='If we change our terms of use we will post those changes on this page. Last change 2.04.2017.';
-
-
 //Subsection1
 $lang['Index_main_heading1'] = 'How diffirent are you from company "A" or "B"?';
 $lang['Index_main_subheading1']= 'Customizable';
@@ -60,7 +51,6 @@ $lang['Index_main_content4']= 'Like a person a project has to have unique style 
 $lang['Index_main_content5']= 'Our #1 priority is you, the client. We believe in our product and hold ourselves to the highest standards. We truly care about your application as much as you do. You can count on us.';
 $lang['Index_main_content6']= 'Every project that we make is going to be 100% documented so even a person without any knowledge can make big changes.';
 
-
 $lang['About_main_heading1']= 'What We Do';
 $lang['About_main_subheading1']= 'Graphics';
 $lang['About_main_subheading2']= 'Coding';
@@ -68,7 +58,6 @@ $lang['About_main_subheading3']= 'Templates';
 $lang['About_main_content1']= 'Develop a system of design that allows for a unified user experience across all their products on any platform.';
 $lang['About_main_content2']= 'When we develop our projects we try stricly to';
 $lang['About_main_content3']= 'We have made more than 5+ templates which can be bouth and used for all kind of websites. Just look in our Envalo account.';
-
 
 $lang['Portfolio_main_heading1']= 'What We Did';
 $lang['Portfolio_main_heading1_sub']= 'All kind of projects all the time.We work on at least 2 open source CMS and make websites/apps for people who want something cool for "less then a buck".';
@@ -79,7 +68,6 @@ $lang['Portfolio_main_content1']= 'We have developed web projects for all kind o
 $lang['Portfolio_main_content2']= 'Mobile Applications from games to media players or root checkers.';
 $lang['Portfolio_main_content3']= 'We have fixed more than 50 projects in general.';
 
-
 $lang['Contact_main_heading1_sub'] = 'MGKNeT provides general customer service via email and aims to respond to all queries within 24 hours.';
 $lang['Contact_form_name'] = 'Name';
 $lang['Contact_form_name_holder'] = 'First & Last Name';
@@ -88,9 +76,6 @@ $lang['Contact_form_email_holder'] = 'example@domain.com';
 $lang['Contact_form_message'] = 'Message';
 $lang['Contact_form_secanswer'] = 'Your Answer';
 $lang['Contact_location'] = 'Sofia, Bulgaria';
-
-
-
 
 //Subsection2
 $lang['Index_main_heading2'] = 'Users Voice';
@@ -121,32 +106,16 @@ $lang['About_btn_rotateback']= $lang['About_btn_rotate'].' back';
 
 $lang['Portfolio_about_heading2'] = 'Our Projects';
 $lang['Portfolio_about_heading2_sub'] = 'Develop a system of design that allows for a unified user experience across all their products on any platform.';
-$lang['Portfolio_category_communicate']= 'Communicate';
-$lang['Portfolio_category_marketing']= 'Marketing';
-$lang['Portfolio_category_software']= 'Software';
+$lang['Portfolio_category_communicate']= '<i class="fa fa-cloud"></i> Communicate';
+$lang['Portfolio_category_marketing']= '<i class="fa fa-pie-chart"></i> Marketing';
+$lang['Portfolio_category_software']= '<i class="fa fa-desktop"></i> Software';
 $lang['Portfolio_btn_view']=' View Project';
-$lang['Portfolio_proj_desc1']='Flazy CMS is a forum content managment system.It is free as like free beer.';
-$lang['Portfolio_proj_desc2']='Tutorials, videos and podcast all for new users of computers and technology in general.';
-$lang['Portfolio_proj_desc3']="Mine CMS is a simple and fast system that can help people who want to make a fast website for they're server.";
-$lang['Portfolio_proj_desc4']='The websites is made for a building company.';
-$lang['Portfolio_proj_desc5']='They have more than 20 years experience launching & developing products and developing sales channels for manufacturers and distributors selling into the UK and Europe IT channel via IT manufacturers, system builders, distributors, resellers, online sellers, retail and education.';
-$lang['Portfolio_proj_desc6']='Lightweight software for controlling cloud based solutions from an easy to use interface.';
-
-
 /**/
-
-
 $lang['Send']= 'Send';
-
-
 /*Footer*/
 $lang['Footer_subscribe_title']= 'Subscribe to get themes updates and exclusive offers.';
 $lang['Footer_subscribe_mail']= 'Your Email Adress';
 $lang['Footer_pp'] = 'Privacy Policy';
 $lang['Footer_tos'] = 'Terms of Service';
 $lang['Footer_copyright']='Copyright';
-
-
-
-
 ?>

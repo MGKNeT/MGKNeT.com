@@ -81,7 +81,7 @@ include_once "include/header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4><?php echo $lang['About_devs_name1'] ?></h4>
+                            <h4>Gabriel Kanev</h4>
                             <p><?php echo $lang['About_devs_profession1'] ?></p>
                             <!--Triggering button-->
                             <a class="rotate-btn" data-card="card-1"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
@@ -93,7 +93,7 @@ include_once "include/header.php";
                         <!--Content-->
                         <h4><?php echo $lang['About_devs_about'] ?></h4>
                         <hr>
-                        <p><?php echo $lang['About_devs_bio1'] ?></p>
+                        <p>Just a 20 (still counting!) year old student, web developer, and driver without a license (you can't catch me coppers) from Bulgaria.</p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
@@ -127,7 +127,7 @@ include_once "include/header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4><?php echo $lang['About_devs_name2'] ?></h4>
+                            <h4>Martin Sholev</h4>
                             <p><?php echo $lang['About_devs_profession2'] ?></p>
                             <!--Triggering button-->
                             <a class="rotate-btn" data-card="card-2"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
@@ -139,14 +139,14 @@ include_once "include/header.php";
                         <!--Content-->
                         <h4><?php echo $lang['About_devs_about'] ?></h4>
                         <hr>
-                        <p><?php echo $lang['About_devs_bio2'] ?></p>
+                        <p>Fan of the music from the 80s and 90s, backend developer with a dream to become a bus driver one day.</p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
-                            <li><a href="https://www.facebook.com/Krokits" class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.facebook.com/Krokits" class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://twitter.com/Krokits" class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="https://www.facebook.com/mrgkanev.eu" class="icons-sm drib-ic"><i class="fa fa-dribbble"> </i></a></li>
+                            <li><a href="https://www.instagram.com/#" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a></li>
+                            <li><a href="https://github.com/Krokit" class="icons-sm git-ic"><i class="fa fa-github"> </i></a></li>
                         </ul>
                         <!--Triggering button-->
                         <a class="rotate-btn" data-card="card-2"><i class="fa fa-undo"></i><?php echo $lang['About_btn_rotateback'] ?></a>
@@ -173,8 +173,8 @@ include_once "include/header.php";
                         </div>
                         <!--Content-->
                         <div class="card-block">
-                            <h4><?php echo $lang['About_devs_name3'] ?></h4>
-                            <p><?php echo $lang['About_devs_profession3'] ?></p>
+                            <h4>Amby Chy</h4>
+                            <p><?php echo $lang['About_devs_web'] ?></p>
                             <!--Triggering button-->
                             <a class="rotate-btn" data-card="card-3"><i class="fa fa-repeat"></i><?php echo $lang['About_btn_rotate'] ?></a>
                         </div>
@@ -183,16 +183,16 @@ include_once "include/header.php";
                     <!--Back Side-->
                     <div class="face back">
                         <!--Content-->
-                        <h4><?php echo $lang['About_devs_about'] ?></h4>
+                        <h4><?php echo $lang['About_devs_web'] ?></h4>
                         <hr>
-                        <p><?php echo $lang['About_devs_bio3'] ?></p>
+                        <p>Full stack Developer, Graphics Designer, Musician and Teacher. Constantly working on new stuff, constantly learning, constantly improving.</p>
                         <hr>
                         <!--Social Icons-->
                         <ul class="inline-ul">
-                            <li><a href="#" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
-                            <li><a href="https://www.facebook.com/jstamby/" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
-                            <li><a href="#" class="icons-sm git-ic"><i class="fa fa-github"> </i></a></li>
-                            <li><a href="#" class="icons-sm li-ic"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/jstamby/" class="icons-sm fb-ic"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/#" class="icons-sm tw-ic"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/#" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a></li>
+                            <li><a href="https://github.com/#" class="icons-sm git-ic"><i class="fa fa-github"> </i></a></li>
                         </ul>
                         <!--Triggering button-->
                         <a class="rotate-btn" data-card="card-3"><i class="fa fa-undo"></i><?php echo $lang['About_btn_rotateback'] ?></a>
